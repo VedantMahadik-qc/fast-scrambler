@@ -1,0 +1,236 @@
+{
+  "_assets": {
+    "schwarzschild": "35a1dafe-c534-40c0-85ce-28cbddc09a05",
+    "kerr": "3c63bb83-7f64-4a13-bc4a-015df10ac034",
+    "kerr_disk_mask": "7d9e7d95-9575-4f70-bc07-3c9778a5e0ca",
+    "hole_mask": "8138f5b8-e4e9-4d24-9ff7-f70918e211f2"
+  },
+  "teleblur_0.10": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.1,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "563faaa9-cdf7-45f8-aaf6-89504352a280"
+  },
+  "teleblur_0.20": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.2,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "e982cf81-403e-4cc1-9132-77f103aa961d"
+  },
+  "teleblur_0.30": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.3,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "7c9bd1f7-4606-46c5-adcb-ca12944f6519"
+  },
+  "teleblur_0.40": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.4,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "b842bb26-a48a-4785-8268-14e52a51cf42"
+  },
+  "teleblur_0.50": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "b6797399-b716-4e0d-ae82-9fe970fa1b6c"
+  },
+  "teleblur_0.60": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.6,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "ecd3b6cc-eec3-496b-8613-37f783c1c9ad"
+  },
+  "teleblur_0.70": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.7,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "2b0e685d-e22f-4feb-992c-70e9cfd83bbf"
+  },
+  "teleblur_0.80": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.8,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "0b72fcfb-01d0-4796-89a7-0b892e92e7f5"
+  },
+  "teleblur_0.90": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.9,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "e462e99b-7116-4db0-9f6c-1d7a5b0c4095"
+  },
+  "blur_0.15": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.15,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "6e84ce99-2bb1-40ac-a2be-6d3f53d79f73"
+  },
+  "blur_0.30": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.3,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "f5e4e344-96c9-4266-8d22-17309f6f4470"
+  },
+  "blur_0.45": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.45,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "38a80ca1-1dce-4454-8312-0bed7bb3a845"
+  },
+  "blur_0.60": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.6,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "b3bd4787-834d-4498-8ad0-3158dc6db049"
+  },
+  "blur_0.75": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.75,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "0d6e1366-9d78-42b1-a434-bb8824c54fde"
+  },
+  "blur_0.90": {
+    "engine": "blur-v1",
+    "params": {
+      "style": "rx",
+      "strength": 0.9,
+      "reach": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "711e86a8-28a0-435c-bfc7-cadd7234777c"
+  },
+  "teleblur_masked_0.10": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.1,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "830c0cab-d2bc-458f-8bde-7125a0965bba"
+  },
+  "teleblur_masked_0.20": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.2,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "ee4a60dd-4494-4828-8d29-e9a27fd79484"
+  },
+  "teleblur_masked_0.30": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.3,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "b0305f59-122e-4402-9c12-80e7d2e013ee"
+  },
+  "teleblur_masked_0.40": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.4,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "61b2dfc0-9be8-4e69-8e66-a127be32e20d"
+  },
+  "teleblur_masked_0.50": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.5,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "6d7b5ba1-8186-4a74-a5be-22876080f2f6"
+  },
+  "teleblur_masked_0.60": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.6,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "955ebcd2-d092-451b-afe2-adfa57521dcf"
+  },
+  "teleblur_masked_0.70": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.7,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "2c0ad7a8-3316-4c9a-9bff-971b2cdbacfb"
+  },
+  "teleblur_masked_0.80": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.8,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "37840428-ca29-4ea9-9207-8c285839f277"
+  },
+  "teleblur_masked_0.90": {
+    "engine": "telablur-v1",
+    "params": {
+      "strength": 0.9,
+      "size": 1024,
+      "downscale": true
+    },
+    "job": "f8753ef9-4029-4565-a031-f3f5a78102cc"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "engine": "qrc-image-v1",
+  "job_id": "021345f1-99f4-42be-bee6-baa83dab554d",
+  "params": {
+    "training_sequence": [
+      "schwarzschild.png",
+      "tele_0.10.png",
+      "tele_0.20.png",
+      "tele_0.30.png",
+      "tele_0.40.png",
+      "tele_0.50.png",
+      "tele_0.60.png",
+      "tele_0.70.png",
+      "tele_0.80.png",
+      "tele_0.90.png",
+      "kerr.png",
+      "blur_0.15.png",
+      "blur_0.30.png",
+      "blur_0.45.png",
+      "blur_0.60.png",
+      "blur_0.75.png",
+      "blur_0.90.png",
+      "blur_0.75.png",
+      "blur_0.60.png",
+      "blur_0.45.png",
+      "blur_0.30.png",
+      "blur_0.15.png",
+      "kerr.png",
+      "tele_0.90.png",
+      "tele_0.80.png",
+      "tele_0.70.png",
+      "tele_0.60.png",
+      "tele_0.50.png",
+      "tele_0.40.png",
+      "tele_0.30.png",
+      "tele_0.20.png",
+      "tele_0.10.png"
+    ],
+    "length": 96,
+    "fps": 8,
+    "quality": "moderate",
+    "variation": 1.0,
+    "periodic": true,
+    "seed": 2026
+  },
+  "inputs": {
+    "vocabulary": "C:\\Users\\Vedant\\Downloads\\Moth_hack\\04_moving_image\\qrc\\vocabulary.zip"
+  },
+  "status": {
+    "$schema": "https://api.mothquantum.com/schemas/JobOutputBody.json",
+    "job_id": "021345f1-99f4-42be-bee6-baa83dab554d",
+    "engine_id": "qrc-image-v1",
+    "owner": "cd5fb2af-6190-4481-9097-5f195f067945",
+    "status": "completed",
+    "gated_features": [],
+    "created_at": "2026-10-05T16:15:07Z",
+    "updated_at": "2026-10-05T16:25:43Z",
+    "outputs": [
+      {
+        "slot": "result",
+        "output_asset_id": "57e2c824-4911-45d4-a711-f4524ef86132",
+        "content_type": "image/gif",
+        "filename": "qrc-image-v1-021345f1-result.gif",
+        "size_bytes": 2762903
+      },
+      {
+        "slot": "state",
+        "output_asset_id": "c95b9a12-fb79-417f-a961-735efe5c5abb",
+        "content_type": "application/json",
+        "filename": "qrc-image-v1-021345f1-state.json",
+        "size_bytes": 16536
+      },
+      {
+        "slot": "vocabulary",
+        "output_asset_id": "b03c75ad-3079-4516-b96b-92266e805646",
+        "content_type": "application/zip",
+        "filename": "qrc-image-v1-021345f1-vocabulary.zip",
+        "size_bytes": 907209
+      }
+    ]
+  },
+  "result": {
+    "$schema": "https://api.mothquantum.com/schemas/JobResultOutputBody.json",
+    "outputs": [
+      {
+        "slot": "result",
+        "output_asset_id": "57e2c824-4911-45d4-a711-f4524ef86132",
+        "url": "https://moth-api-assets-us-east-1.s3.us-east-1.amazonaws.com/jobs/021345f1-99f4-42be-bee6-baa83dab554d/result?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA6G75DOFZ7Q46USGL%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T162546Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLWVhc3QtMSJHMEUCIQCHT4C86%2FFAvXNmKvnPXLOGsEzqRAqYpsn0aivb1wEE4gIgQRSGeCpbmOauj6bbcIU5XEjjx8xoA4dVQVdF1lCRB3QqpQUI4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw5NzcwOTg5OTQwMzUiDBUSZ7cNFJduW7Kh2ir5BGRgWQKe8KW5nmHQBR2BtXykNgy3QRCqDaXuIbH6MjAZehC0UkgMKk2zE24xLPrv1U2bKqc8yWr80cd1YdaWfSwwVfMq7wq%2F1oweA0H%2Bf7BKJJldYi%2BUm5QFZzNy5207gVP3O3BfJKS1Jul8OHfwXL2mA3fHE5zJEEQukU4jkBJ8f%2FFeO9g81oxcU7XzEN4Dz76xGoUGBnT1iyPAuejmZNaVFapVMc8eJrhc%2FdG%2FYLTAn%2FAXCQTOEYqrhkE6T5MSFhUv2acQbM8TsueRUYVCbIh9C0Jxi4rpYDLPpYTGDNZtjYNS1OmhjCqKDWiQJMkuF%2FzxRRTdTm4ac23m%2F3EmuARZ0JrjRflIEtoaHNSAK%2BIbPsfAbGjTVQpL%2BqaaWGdWHAzgJb%2BPFSWsXrb%2FXc98gLMzFPQOW7ClH7uIkxFuXWrV7inp4Io2t5KfZvOjYKimrEAkZ9tBt2I6o2%2Bqsw%2BNFZj%2F1CC7LyAtSvY1KZNH%2FeRVUVZIa9ev5hii9ImK5a1i51%2ByoKApehJSLt0367eacTrlW8gE9n6BoitHbfxfadj0g%2BEmsoDkYA4%2Bq4vIVYCv74gowZzuGDlOYlUc5GOZoI1F67gvl8Z49%2F3RTkt6LTSopnaw0KW13SUB0tuGRJBp8Z5vmCTLYYxAH3wRDObVD90SU%2F9GTK5LNkf7qEid9z9pIQTntUM0Tk%2BbNNyftJCG%2BzBX7Z0piYxaHLpPTA5RLvvOzDMdpNn6G7aq46LegdAooXXq%2Fr7RokgZh3pANaoU96UckbEc9fZQwdvUTjuK3R%2FqoodhpH4O9QpxE%2BROy86r8ZJAQvBn%2BWrPQF%2FvCCGlJL%2F1MDAtdk73qDDz7o7WBjqQAeHNZ6jPoAGun79rw98qBcCEat1dAzKkiAK1Gi8JrxKcmXIVZcAq76E8hiN9rsjNXedNxkoeEQXTY4x6CgfWzbn6J4m4IJWtYouFxx6xOLt0RnAulFFpFwDZHOfQcGGCFkP6XioMogpK8w6Z%2FNrFfoPqmkbIGxUGm6ejaw7BhYg32GSYh3ubH5rWyQUesSFigw%3D%3D&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22qrc-image-v1-021345f1-result.gif%22%3B%20filename%2A%3DUTF-8%27%27qrc-image-v1-021345f1-result.gif&response-content-type=image%2Fgif&x-id=GetObject&X-Amz-Signature=252f97ac8366c28bb877e8329ea1d5f2ac68590bd9e1fdf6bb92edcf55e6d9ef",
+        "expires_at": "2026-10-05T16:40:46.258723727Z",
+        "content_type": "image/gif",
+        "filename": "qrc-image-v1-021345f1-result.gif",
+        "size_bytes": 2762903
+      },
+      {
+        "slot": "state",
+        "output_asset_id": "c95b9a12-fb79-417f-a961-735efe5c5abb",
+        "url": "https://moth-api-assets-us-east-1.s3.us-east-1.amazonaws.com/jobs/021345f1-99f4-42be-bee6-baa83dab554d/outputs/state?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA6G75DOFZ7Q46USGL%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T162546Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLWVhc3QtMSJHMEUCIQCHT4C86%2FFAvXNmKvnPXLOGsEzqRAqYpsn0aivb1wEE4gIgQRSGeCpbmOauj6bbcIU5XEjjx8xoA4dVQVdF1lCRB3QqpQUI4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw5NzcwOTg5OTQwMzUiDBUSZ7cNFJduW7Kh2ir5BGRgWQKe8KW5nmHQBR2BtXykNgy3QRCqDaXuIbH6MjAZehC0UkgMKk2zE24xLPrv1U2bKqc8yWr80cd1YdaWfSwwVfMq7wq%2F1oweA0H%2Bf7BKJJldYi%2BUm5QFZzNy5207gVP3O3BfJKS1Jul8OHfwXL2mA3fHE5zJEEQukU4jkBJ8f%2FFeO9g81oxcU7XzEN4Dz76xGoUGBnT1iyPAuejmZNaVFapVMc8eJrhc%2FdG%2FYLTAn%2FAXCQTOEYqrhkE6T5MSFhUv2acQbM8TsueRUYVCbIh9C0Jxi4rpYDLPpYTGDNZtjYNS1OmhjCqKDWiQJMkuF%2FzxRRTdTm4ac23m%2F3EmuARZ0JrjRflIEtoaHNSAK%2BIbPsfAbGjTVQpL%2BqaaWGdWHAzgJb%2BPFSWsXrb%2FXc98gLMzFPQOW7ClH7uIkxFuXWrV7inp4Io2t5KfZvOjYKimrEAkZ9tBt2I6o2%2Bqsw%2BNFZj%2F1CC7LyAtSvY1KZNH%2FeRVUVZIa9ev5hii9ImK5a1i51%2ByoKApehJSLt0367eacTrlW8gE9n6BoitHbfxfadj0g%2BEmsoDkYA4%2Bq4vIVYCv74gowZzuGDlOYlUc5GOZoI1F67gvl8Z49%2F3RTkt6LTSopnaw0KW13SUB0tuGRJBp8Z5vmCTLYYxAH3wRDObVD90SU%2F9GTK5LNkf7qEid9z9pIQTntUM0Tk%2BbNNyftJCG%2BzBX7Z0piYxaHLpPTA5RLvvOzDMdpNn6G7aq46LegdAooXXq%2Fr7RokgZh3pANaoU96UckbEc9fZQwdvUTjuK3R%2FqoodhpH4O9QpxE%2BROy86r8ZJAQvBn%2BWrPQF%2FvCCGlJL%2F1MDAtdk73qDDz7o7WBjqQAeHNZ6jPoAGun79rw98qBcCEat1dAzKkiAK1Gi8JrxKcmXIVZcAq76E8hiN9rsjNXedNxkoeEQXTY4x6CgfWzbn6J4m4IJWtYouFxx6xOLt0RnAulFFpFwDZHOfQcGGCFkP6XioMogpK8w6Z%2FNrFfoPqmkbIGxUGm6ejaw7BhYg32GSYh3ubH5rWyQUesSFigw%3D%3D&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22qrc-image-v1-021345f1-state.json%22%3B%20filename%2A%3DUTF-8%27%27qrc-image-v1-021345f1-state.json&response-content-type=application%2Fjson&x-id=GetObject&X-Amz-Signature=aa0bfa7dc2914103729f84881b5fad65ffeff29d5adff990caf3a3122fc47733",
+        "expires_at": "2026-10-05T16:40:46.258865578Z",
+        "content_type": "application/json",
+        "filename": "qrc-image-v1-021345f1-state.json",
+        "size_bytes": 16536
+      },
+      {
+        "slot": "vocabulary",
+        "output_asset_id": "b03c75ad-3079-4516-b96b-92266e805646",
+        "url": "https://moth-api-assets-us-east-1.s3.us-east-1.amazonaws.com/jobs/021345f1-99f4-42be-bee6-baa83dab554d/outputs/vocabulary?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA6G75DOFZ7Q46USGL%2F20261005%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261005T162546Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLWVhc3QtMSJHMEUCIQCHT4C86%2FFAvXNmKvnPXLOGsEzqRAqYpsn0aivb1wEE4gIgQRSGeCpbmOauj6bbcIU5XEjjx8xoA4dVQVdF1lCRB3QqpQUI4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw5NzcwOTg5OTQwMzUiDBUSZ7cNFJduW7Kh2ir5BGRgWQKe8KW5nmHQBR2BtXykNgy3QRCqDaXuIbH6MjAZehC0UkgMKk2zE24xLPrv1U2bKqc8yWr80cd1YdaWfSwwVfMq7wq%2F1oweA0H%2Bf7BKJJldYi%2BUm5QFZzNy5207gVP3O3BfJKS1Jul8OHfwXL2mA3fHE5zJEEQukU4jkBJ8f%2FFeO9g81oxcU7XzEN4Dz76xGoUGBnT1iyPAuejmZNaVFapVMc8eJrhc%2FdG%2FYLTAn%2FAXCQTOEYqrhkE6T5MSFhUv2acQbM8TsueRUYVCbIh9C0Jxi4rpYDLPpYTGDNZtjYNS1OmhjCqKDWiQJMkuF%2FzxRRTdTm4ac23m%2F3EmuARZ0JrjRflIEtoaHNSAK%2BIbPsfAbGjTVQpL%2BqaaWGdWHAzgJb%2BPFSWsXrb%2FXc98gLMzFPQOW7ClH7uIkxFuXWrV7inp4Io2t5KfZvOjYKimrEAkZ9tBt2I6o2%2Bqsw%2BNFZj%2F1CC7LyAtSvY1KZNH%2FeRVUVZIa9ev5hii9ImK5a1i51%2ByoKApehJSLt0367eacTrlW8gE9n6BoitHbfxfadj0g%2BEmsoDkYA4%2Bq4vIVYCv74gowZzuGDlOYlUc5GOZoI1F67gvl8Z49%2F3RTkt6LTSopnaw0KW13SUB0tuGRJBp8Z5vmCTLYYxAH3wRDObVD90SU%2F9GTK5LNkf7qEid9z9pIQTntUM0Tk%2BbNNyftJCG%2BzBX7Z0piYxaHLpPTA5RLvvOzDMdpNn6G7aq46LegdAooXXq%2Fr7RokgZh3pANaoU96UckbEc9fZQwdvUTjuK3R%2FqoodhpH4O9QpxE%2BROy86r8ZJAQvBn%2BWrPQF%2FvCCGlJL%2F1MDAtdk73qDDz7o7WBjqQAeHNZ6jPoAGun79rw98qBcCEat1dAzKkiAK1Gi8JrxKcmXIVZcAq76E8hiN9rsjNXedNxkoeEQXTY4x6CgfWzbn6J4m4IJWtYouFxx6xOLt0RnAulFFpFwDZHOfQcGGCFkP6XioMogpK8w6Z%2FNrFfoPqmkbIGxUGm6ejaw7BhYg32GSYh3ubH5rWyQUesSFigw%3D%3D&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22qrc-image-v1-021345f1-vocabulary.zip%22%3B%20filename%2A%3DUTF-8%27%27qrc-image-v1-021345f1-vocabulary.zip&response-content-type=application%2Fzip&x-id=GetObject&X-Amz-Signature=b6afafeeb0412da75abc73066a2ccb01ae8464e8688dc785c1e2c7a6c0612f28",
+        "expires_at": "2026-10-05T16:40:46.259082505Z",
+        "content_type": "application/zip",
+        "filename": "qrc-image-v1-021345f1-vocabulary.zip",
+        "size_bytes": 907209
+      }
+    ]
+  }
+}

@@ -63,3 +63,7 @@ The scripts skip jobs already recorded in the `jobs.json` files and just collect
 | `submission_blackhole/` | `hero.png` (full 8K result), `hero_4k.jpg`, `poster_4x3.jpg`, `before_after.png`, `detail.png` |
 
 Code was written with help from Claude (Claude Code). The source images come from my own simulation; the result is Quantum Blur's output, not AI-generated.
+
+## Spin-up (Challenge 04: Moving image)
+
+The same renders, now moving: [`spin-up/`](spin-up/README.md) teleports the still hole into the spinning one with Quantum Teleblur, scrambles its disk with Quantum Blur, and lets a quantum reservoir (QRC Image) dream a new sequence of the frames, all cut to my track *Superposition*.
