@@ -1,0 +1,120 @@
+{
+  "assets": {
+    "schwarzschild": "7e78f11a-5c70-486c-8512-ef2334f50424",
+    "schwarzschild_mask": "18b48566-67f8-4c52-9805-01d32add367c",
+    "kerr": "b5f7f2d8-fb81-41e6-a986-66e264850637",
+    "kerr_mask": "6e950d52-a14d-4e47-ab10-82d4d5a7b012"
+  },
+  "jobs": {
+    "schwarzschild_rx0.833_r0": "fe3e11c3-f9dc-4810-a2b0-a48b87140ca8",
+    "schwarzschild_rx0.833_r0.25": "8c119694-c071-4d74-9915-4c167f0bf9f3",
+    "schwarzschild_rx0.833_r0.5": "6a7208e7-f14a-4e58-b3dd-f992783a9038",
+    "schwarzschild_ry0.2_r0": "32fd58e9-007f-409f-a914-f36d3f9a58c3",
+    "schwarzschild_disk_rx0.9_r0.5": "cecffa72-228c-4175-a733-89a8e888f33f",
+    "schwarzschild_disk_rx0.9_r1.0": "c018fa47-41ff-42ac-9ee6-4ff26011155e",
+    "kerr_rx0.833_r0": "6cf27ab8-57ec-4cb4-8c05-38e98c5a729a",
+    "kerr_rx0.833_r0.25": "bdcb8144-dbdc-44ac-9ef5-4bc6a9368c43",
+    "kerr_rx0.833_r0.5": "c8e1e062-6caa-45cd-bbab-ea8a8358c778",
+    "kerr_ry0.2_r0": "676f2f57-5d8e-4dab-af4d-77b98e8d0416",
+    "kerr_disk_rx0.9_r0.5": "024a43d2-7302-48e8-9551-196d3da804b1",
+    "kerr_disk_rx0.9_r1.0": "226c4d73-504b-4da0-8fc0-f49530072ce2"
+  },
+  "params": {
+    "schwarzschild_rx0.833_r0": {
+      "strength": 0.833,
+      "reach": 0.0,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "schwarzschild_rx0.833_r0.25": {
+      "strength": 0.833,
+      "reach": 0.25,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "schwarzschild_rx0.833_r0.5": {
+      "strength": 0.833,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "schwarzschild_ry0.2_r0": {
+      "strength": 0.2,
+      "reach": 0.0,
+      "style": "ry",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "schwarzschild_disk_rx0.9_r0.5": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "schwarzschild_disk_mask.png"
+    },
+    "schwarzschild_disk_rx0.9_r1.0": {
+      "strength": 0.9,
+      "reach": 1.0,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "schwarzschild_disk_mask.png"
+    },
+    "kerr_rx0.833_r0": {
+      "strength": 0.833,
+      "reach": 0.0,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "kerr_rx0.833_r0.25": {
+      "strength": 0.833,
+      "reach": 0.25,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "kerr_rx0.833_r0.5": {
+      "strength": 0.833,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "kerr_ry0.2_r0": {
+      "strength": 0.2,
+      "reach": 0.0,
+      "style": "ry",
+      "size": 1024,
+      "downscale": true,
+      "mask": null
+    },
+    "kerr_disk_rx0.9_r0.5": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "kerr_disk_rx0.9_r1.0": {
+      "strength": 0.9,
+      "reach": 1.0,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    }
+  }
+}

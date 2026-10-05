@@ -1,0 +1,7 @@
+.env
+__pycache__/
+# Raw blur-v1 outputs (~140 MB); scripts re-download them from the recorded jobs
+blackhole/out/
+blackhole/round2/*.png
+blackhole/engines/*.png
+submission_blackhole/hero_4k.png

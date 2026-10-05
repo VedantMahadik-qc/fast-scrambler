@@ -1,0 +1,93 @@
+{
+  "assets": {
+    "image": "a98ea824-333c-4e9f-9032-f45c2e1030c3",
+    "mask": "e86c2f3c-75c0-4029-a218-e140212f3292"
+  },
+  "jobs": {
+    "tessa_aer_d0": "5bb1986b-2c5a-4a53-800a-2034e2e82738",
+    "tessa_aer_d0.5_XZ": "98cc6fe7-bfcf-4de9-ad96-f058d61c56af",
+    "tessa_aer_d1.5_ZZ": "539e842b-a604-4cc6-b68b-f443ac2ba02d",
+    "tessa_fakefez_d0": "9affca46-9ccb-43b7-8331-860a8173f53a",
+    "tessa_ibm_d0.5_XZ": "d851353e-69a4-413e-8902-f78ac32dc3c4",
+    "fryer_rx0.5": "3d5a34ca-caf3-4950-afed-acff4bfbb455",
+    "fryer_h_rzz0.6": "f3187b87-31ee-4552-8f98-99d47bde8291",
+    "fryer_ry0.6_cx_rz0.4": "fea733b9-1050-4f9f-9ec4-63de6bce6851"
+  },
+  "params": {
+    "tessa_aer_d0": {
+      "engine": "tessa-image-v1",
+      "machine": "aer",
+      "distortion": 0,
+      "mask": null
+    },
+    "tessa_aer_d0.5_XZ": {
+      "engine": "tessa-image-v1",
+      "machine": "aer",
+      "distortion": 0.5,
+      "gate_pauli": "XZ",
+      "mask": null
+    },
+    "tessa_aer_d1.5_ZZ": {
+      "engine": "tessa-image-v1",
+      "machine": "aer",
+      "distortion": 1.5,
+      "gate_pauli": "ZZ",
+      "mask": null
+    },
+    "tessa_fakefez_d0": {
+      "engine": "tessa-image-v1",
+      "machine": "fake_fez",
+      "distortion": 0,
+      "mask": null
+    },
+    "tessa_ibm_d0.5_XZ": {
+      "engine": "tessa-image-v1",
+      "machine": "least_busy",
+      "distortion": 0.5,
+      "gate_pauli": "XZ",
+      "mask": null
+    },
+    "fryer_rx0.5": {
+      "engine": "deep-fryer-v1",
+      "gates": [
+        [
+          "rx",
+          0.5
+        ]
+      ],
+      "mask": "kerr_disk_mask_1080p.png"
+    },
+    "fryer_h_rzz0.6": {
+      "engine": "deep-fryer-v1",
+      "gates": [
+        [
+          "h",
+          1.0
+        ],
+        [
+          "rzz",
+          0.6
+        ]
+      ],
+      "mask": "kerr_disk_mask_1080p.png"
+    },
+    "fryer_ry0.6_cx_rz0.4": {
+      "engine": "deep-fryer-v1",
+      "gates": [
+        [
+          "ry",
+          0.6
+        ],
+        [
+          "cx",
+          1.0
+        ],
+        [
+          "rz",
+          0.4
+        ]
+      ],
+      "mask": "kerr_disk_mask_1080p.png"
+    }
+  }
+}

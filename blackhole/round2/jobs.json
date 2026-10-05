@@ -1,0 +1,84 @@
+{
+  "assets": {
+    "kerr": "b5f7f2d8-fb81-41e6-a986-66e264850637",
+    "disk": "6e950d52-a14d-4e47-ab10-82d4d5a7b012",
+    "horizon": "d0d593d2-c3f4-4476-89d9-08d7144c959e",
+    "sky": "b1f4aa2e-6f72-4298-a82b-7500409297aa"
+  },
+  "jobs": {
+    "disk_rx0.6_r0.5": "b2aa5f4d-f049-4e74-9cee-afa43143c6cb",
+    "disk_rx0.75_r0.5": "ba381db5-c3e0-4512-85b0-94046fd704c0",
+    "disk_rx0.9_r0.25": "c456465d-454d-48d6-a463-14730d5e60cb",
+    "disk_ry0.3_r0.5": "01244c4f-a406-4c1d-b39c-37f051d194c1",
+    "disk_rx0.9_r0.5_tiled": "24db34ae-ebad-4254-bc89-d6d2b8e48e06",
+    "disk_rx0.9_r0.5_size256": "c2f61b51-f67b-4194-b212-331b8112c9e4",
+    "horizon_rx0.9_r0.5": "75a7eedd-966c-476c-932e-1e07972237ea",
+    "sky_rx0.9_r0.5": "f36afc1a-8932-4246-b6f7-3f6cc065b194"
+  },
+  "params": {
+    "disk_rx0.6_r0.5": {
+      "strength": 0.6,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "disk_rx0.75_r0.5": {
+      "strength": 0.75,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "disk_rx0.9_r0.25": {
+      "strength": 0.9,
+      "reach": 0.25,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "disk_ry0.3_r0.5": {
+      "strength": 0.3,
+      "reach": 0.5,
+      "style": "ry",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "disk_rx0.9_r0.5_tiled": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": false,
+      "mask": "kerr_disk_mask.png"
+    },
+    "disk_rx0.9_r0.5_size256": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 256,
+      "downscale": true,
+      "mask": "kerr_disk_mask.png"
+    },
+    "horizon_rx0.9_r0.5": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_horizon_mask.png"
+    },
+    "sky_rx0.9_r0.5": {
+      "strength": 0.9,
+      "reach": 0.5,
+      "style": "rx",
+      "size": 1024,
+      "downscale": true,
+      "mask": "kerr_sky_mask.png"
+    }
+  }
+}
